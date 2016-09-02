@@ -6,6 +6,7 @@ description 'Installs/Configures ems'
 long_description 'Installs/Configures ems'
 version '0.1.0'
 
+recipe 'ems::default', 'Base setup for EMS'
 recipe 'ems::config', 'Replaces Configs'
 # If you upload to Supermarket you should set this so your cookbook
 # gets a `View Issues` link
