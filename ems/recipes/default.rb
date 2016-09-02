@@ -1,4 +1,4 @@
-node.default['java']['jdk_version'] = '8'
-
-# Install Java
-include_recipe 'java'
+execute "install_java" do
+ 	command "yum -y install java-1.8.0"
+        user "root" 
+end
