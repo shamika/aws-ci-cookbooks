@@ -4,7 +4,7 @@
 #
 # Copyright (c) 2016 The Authors, All Rights Reserved.
 
-config_dir="/opt/ems/conf/ems_properties"
+config_dir="/opt/ems/conf"
 
 directory config_dir do
   recursive true
